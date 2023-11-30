@@ -6,6 +6,8 @@ import MyNav from "./components/shared/MyNav"
 import MyFooter from "./components/shared/MyFooter"
 import NotFound from "./pages/NotFound"
 import './modified.css'
+import Vacancy from "./pages/Vacancy"
+import Borders from "./pages/Borders"
 
 
 
@@ -49,6 +51,14 @@ function App() {
         {
           path: "*",
           element: <NotFound />
+        },
+        {
+          path: "vacancy",
+          element: <Vacancy />
+        },
+        {
+          path: "borders",
+          element: <Borders />
         }
       ]
     }

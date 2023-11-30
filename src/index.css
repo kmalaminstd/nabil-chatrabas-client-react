@@ -41,8 +41,7 @@
 }
 
 .fac-card{
-    min-width: 32% !important;
-    max-width: 32% !important;
+    /* width: 32% !important; */
     box-shadow: 0 5px 5px 2px lightgray;
 }
 
@@ -58,4 +57,9 @@
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
+}
+
+.applyForm{
+    width: "700px" !important;
+    margin: "0 auto" !important;
 }
