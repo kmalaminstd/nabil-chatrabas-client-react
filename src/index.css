@@ -1,0 +1,61 @@
+.banner{
+    background: linear-gradient(to right,rgba(0,0,0,0.5),rgb(0, 0, 0)) ,url('./images/banImg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    height: calc(100vh - 60px);
+    width: 100%;
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-text h1{
+    font-size: 5rem;
+}
+
+.banner-text p{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.section-header{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.section-header h2::after{
+    content: '';
+    background-color: lightseagreen;
+    height: 2px;
+    width: 30%;
+    display: block;
+    margin: 20px auto;
+}
+
+.fac-card{
+    min-width: 32% !important;
+    max-width: 32% !important;
+    box-shadow: 0 5px 5px 2px lightgray;
+}
+
+.fac-card:hover{
+    background-color: lightblue;
+    transform: translateY(-10px);
+    transition: 0.5s linear;
+    -webkit-transition: 0.5s linear;
+    -moz-transition: 0.5s linear;
+    -ms-transition: 0.5s linear;
+    -o-transition: 0.5s linear;
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+}
